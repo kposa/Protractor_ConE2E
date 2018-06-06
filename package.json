@@ -7,6 +7,8 @@
     "ps:retry": "npm run test -- --suite=failed --Env=staging --Grid=true"
   },
   "dependencies": {
-    "optimist": "^0.6.1"
+    "minimist": "^1.2.0",
+    "optimist": "^0.6.1",
+    "wordwrap": "^1.0.0"
   }
 }
