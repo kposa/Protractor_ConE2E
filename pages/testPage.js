@@ -1,7 +1,8 @@
+var testData = require('../testData/data.json');
 var testPage = function () {
     var getStarted = element(by.css('.button.hero-cta'));
     this.testMethod = function(){
-        console.log('testMethod');
+        console.log(testData.userName);
         browser.get(browser.baseUrl);
         getStarted.click().then(function () {
            
