@@ -1,11 +1,6 @@
 {
   "name": "connex_e2e",
   "version": "0.1.0",
-  "scripts": {
-    "test": "protractor build\\protractor.config.js",
-    "ps:test": "npm run test -- --suite=all_en_reg --Env=staging --Grid=true",
-    "ps:retry": "npm run test -- --suite=failed --Env=staging --Grid=true"
-  },
   "dependencies": {
     "minimist": "^1.2.0",
     "optimist": "^0.6.1",
