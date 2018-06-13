@@ -1,4 +1,5 @@
 var ConfigService = require('./lib/services/ConfigServices');
+var SpecReporter = require("jasmine-spec-reporter").SpecReporter;
 var config = ConfigService.getInstance();
 var _a = config.data,Locale = _a.Locale, GridIsEnabled = _a.GridIsEnabled;
 config.injectIntoEnv();
@@ -10,7 +11,12 @@ exports.config = {
         testSuite:'./specs/*.*'
     },
     onPrepare:function(){
-        console.log('onPrepare');
+        var specReporter = new SpecReporter({
+            displayStacktrace: "all",
+            displayPendingSpec: true,
+            displaySpecDuration: true
+        });
+        jasmine.getEnv().addReporter(specReporter);
     },
     afterLaunch:function(){
         console.log('afterLaunch');

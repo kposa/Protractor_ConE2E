@@ -1,10 +1,11 @@
+var browserPage = require('../pages/browserPage.js');
 describe('Browser Tests',function(){
     it('browser.waitForAngularEnabled',function(){
-
+        browserPage.waitForAngularEnabled()
     })
 
     it('browser.restart',function(){
-
+        browserPage.restart();
     })
 
     it('browser.restartSync',function(){

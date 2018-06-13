@@ -2,6 +2,7 @@
   "name": "connex_e2e",
   "version": "0.1.0",
   "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
     "minimist": "^1.2.0",
     "optimist": "^0.6.1",
     "wordwrap": "^1.0.0"
