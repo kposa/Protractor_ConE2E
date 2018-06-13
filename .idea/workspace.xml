@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0664c2f1-0123-45f6-9bea-7ecd104df227" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/browserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/browserPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/elementPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/elementArrayFinderPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/browserSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/specs/browserSpec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/elementSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/specs/elementArrayFinderSpec.js" afterDir="false" />
-    </list>
+    <list default="true" id="0664c2f1-0123-45f6-9bea-7ecd104df227" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -52,13 +44,23 @@
       <file leaf-file-name="elementArrayFinderSpec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/elementArrayFinderSpec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
+            <state relative-caret-position="493">
               <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elementArrayFinderPage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="elementFinderPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/elementFinderPage.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="elementFinderSpec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/specs/elementFinderSpec.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="elementArrayFinderPage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/elementArrayFinderPage.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -104,6 +106,8 @@
         <option value="$PROJECT_DIR$/pages/browserPage.js" />
         <option value="$PROJECT_DIR$/specs/browserSpec.js" />
         <option value="$PROJECT_DIR$/specs/elementArrayFinderSpec.js" />
+        <option value="$PROJECT_DIR$/pages/elementFinderPage.js" />
+        <option value="$PROJECT_DIR$/specs/elementFinderSpec.js" />
       </list>
     </option>
   </component>
@@ -223,7 +227,7 @@
       <workItem from="1528219159661" duration="1506000" />
       <workItem from="1528393160771" duration="1446000" />
       <workItem from="1528476921990" duration="3698000" />
-      <workItem from="1528907794097" duration="1015000" />
+      <workItem from="1528907794097" duration="1255000" />
     </task>
     <servers />
   </component>
@@ -260,7 +264,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30002000" />
+    <option name="totallyTimeSpent" value="30242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -316,16 +320,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/specs/browserSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/elementArrayFinderPage.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/browserPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -638,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/elementArrayFinderSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/browserPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -653,6 +640,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/elementArrayFinderPage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/elementArrayFinderSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/elementFinderPage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/elementFinderSpec.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
